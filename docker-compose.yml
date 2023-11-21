@@ -1,0 +1,80 @@
+version: "3.5"
+
+services:
+  nginx:
+    container_name: studi_nginx
+    image:  registry.gitlab.com/dev-up/docker/nginx:latest
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.studi.rule=Host(`studi.local.qks.io`)
+    volumes:
+      - ./:/var/www/html
+      - ./log/nginx:/var/log/nginx
+    networks:
+      - php
+      - proxy
+
+  php:
+    container_name: studi_php
+    image:  registry.gitlab.com/dev-up/docker/php:latest
+    volumes:
+      - ./:/var/www/html
+      - ./log/php:/var/log/dev-up
+    networks:
+      - php
+      - mysql
+      - gotenberg
+
+  php-worker:
+    container_name: studi_worker_php
+    image:  registry.gitlab.com/dev-up/docker/php:worker
+    environment:
+      TRANSPORT_NAME: scheduler_default async_priority_high async_priority_normal async_priority_low
+    volumes:
+      - ./:/var/www/html
+      - ./log/php:/var/log/dev-up
+    networks:
+      - php
+      - mysql
+    restart: unless-stopped
+
+  mysql:
+    container_name: studi_mysql
+    image: registry.gitlab.com/dev-up/docker/mariadb:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: studi
+      MARIADB_DATABASE: studi
+      MARIADB_PASSWORD: studi
+      MARIADB_USER: studi
+      MYSQL_ROOT_HOST: localhost
+    volumes:
+      - ../database/studi/data:/var/lib/mysql
+    networks:
+      - mysql
+
+  adminer:
+    image: adminer
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.adminerstudi.rule=Host(`adminer-studi.local.qks.io`)
+    networks:
+      - proxy
+      - mysql
+    environment:
+      - ADMINER_DESIGN=haeckel
+
+  gotenberg:
+    container_name: studi_gotenberg
+    image:  gotenberg/gotenberg:7.4.3
+    networks:
+      - gotenberg
+
+networks:
+  php:
+    external: false
+  mysql:
+    external: false
+  proxy:
+    external: true
+  gotenberg:
+    external: false

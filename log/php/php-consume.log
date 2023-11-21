@@ -1,0 +1,602 @@
+2023-11-21 14:08:44,737 INFO Set uid to user 0 succeeded
+2023-11-21 14:08:44,747 INFO supervisord started with pid 1
+2023-11-21 14:08:45,751 INFO spawned: 'messenger-consume' with pid 24
+2023-11-21 14:08:45,765 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:08:45,766 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:08:46,770 INFO spawned: 'messenger-consume' with pid 26
+2023-11-21 14:08:46,778 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:08:46,779 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:08:47,783 INFO spawned: 'messenger-consume' with pid 28
+2023-11-21 14:08:47,797 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:08:47,798 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:08:48,804 INFO spawned: 'messenger-consume' with pid 30
+2023-11-21 14:08:48,820 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:08:48,821 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:08:49,827 INFO spawned: 'messenger-consume' with pid 32
+2023-11-21 14:08:49,843 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:08:49,844 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:08:50,850 INFO spawned: 'messenger-consume' with pid 34
+2023-11-21 14:08:50,865 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:08:50,866 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:08:51,872 INFO spawned: 'messenger-consume' with pid 36
+2023-11-21 14:08:51,890 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:08:51,891 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:08:52,895 INFO spawned: 'messenger-consume' with pid 38
+2023-11-21 14:08:52,905 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:08:52,906 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:08:53,910 INFO spawned: 'messenger-consume' with pid 40
+2023-11-21 14:08:53,924 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:08:53,925 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:08:54,930 INFO spawned: 'messenger-consume' with pid 42
+2023-11-21 14:08:54,945 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:08:54,946 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:08:55,951 INFO spawned: 'messenger-consume' with pid 44
+2023-11-21 14:08:55,966 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:08:55,967 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:08:56,972 INFO spawned: 'messenger-consume' with pid 46
+2023-11-21 14:08:56,985 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:08:56,986 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:08:57,989 INFO spawned: 'messenger-consume' with pid 48
+2023-11-21 14:08:57,992 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:08:57,992 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:08:58,995 INFO spawned: 'messenger-consume' with pid 50
+2023-11-21 14:08:58,999 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:08:58,999 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:00,001 INFO spawned: 'messenger-consume' with pid 52
+2023-11-21 14:09:00,005 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:00,006 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:01,009 INFO spawned: 'messenger-consume' with pid 54
+2023-11-21 14:09:01,016 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:01,016 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:02,019 INFO spawned: 'messenger-consume' with pid 56
+2023-11-21 14:09:02,026 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:02,026 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:03,029 INFO spawned: 'messenger-consume' with pid 58
+2023-11-21 14:09:03,034 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:03,034 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:04,039 INFO spawned: 'messenger-consume' with pid 60
+2023-11-21 14:09:04,053 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:04,054 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:05,057 INFO spawned: 'messenger-consume' with pid 62
+2023-11-21 14:09:05,064 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:05,064 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:06,067 INFO spawned: 'messenger-consume' with pid 64
+2023-11-21 14:09:06,075 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:06,075 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:07,078 INFO spawned: 'messenger-consume' with pid 66
+2023-11-21 14:09:07,088 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:08,090 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:09,093 INFO spawned: 'messenger-consume' with pid 68
+2023-11-21 14:09:09,099 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:09,100 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:10,102 INFO spawned: 'messenger-consume' with pid 70
+2023-11-21 14:09:10,109 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:11,111 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:12,113 INFO spawned: 'messenger-consume' with pid 72
+2023-11-21 14:09:12,117 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:12,117 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:13,123 INFO spawned: 'messenger-consume' with pid 74
+2023-11-21 14:09:13,136 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:13,137 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:14,142 INFO spawned: 'messenger-consume' with pid 76
+2023-11-21 14:09:14,155 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:14,156 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:15,161 INFO spawned: 'messenger-consume' with pid 78
+2023-11-21 14:09:15,174 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:15,175 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:16,178 INFO spawned: 'messenger-consume' with pid 80
+2023-11-21 14:09:16,183 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:16,183 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:17,187 INFO spawned: 'messenger-consume' with pid 82
+2023-11-21 14:09:17,203 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:17,204 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:18,210 INFO spawned: 'messenger-consume' with pid 84
+2023-11-21 14:09:18,225 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:18,226 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:19,231 INFO spawned: 'messenger-consume' with pid 86
+2023-11-21 14:09:19,246 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:19,247 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:20,250 INFO spawned: 'messenger-consume' with pid 88
+2023-11-21 14:09:20,262 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:20,262 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:20,265 INFO spawned: 'messenger-consume' with pid 90
+2023-11-21 14:09:20,276 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:20,277 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:20,280 INFO spawned: 'messenger-consume' with pid 92
+2023-11-21 14:09:20,292 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:20,293 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:21,298 INFO spawned: 'messenger-consume' with pid 94
+2023-11-21 14:09:21,312 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:21,313 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:22,318 INFO spawned: 'messenger-consume' with pid 96
+2023-11-21 14:09:22,332 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:22,333 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:23,338 INFO spawned: 'messenger-consume' with pid 98
+2023-11-21 14:09:23,352 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:23,353 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:24,356 INFO spawned: 'messenger-consume' with pid 100
+2023-11-21 14:09:24,359 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:24,360 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:25,365 INFO spawned: 'messenger-consume' with pid 102
+2023-11-21 14:09:25,379 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:25,381 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:26,383 INFO spawned: 'messenger-consume' with pid 104
+2023-11-21 14:09:26,388 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:26,389 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:27,394 INFO spawned: 'messenger-consume' with pid 106
+2023-11-21 14:09:27,410 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:27,411 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:28,416 INFO spawned: 'messenger-consume' with pid 108
+2023-11-21 14:09:28,430 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:28,431 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:29,437 INFO spawned: 'messenger-consume' with pid 110
+2023-11-21 14:09:29,453 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:29,454 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:30,459 INFO spawned: 'messenger-consume' with pid 112
+2023-11-21 14:09:30,476 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:30,477 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:31,483 INFO spawned: 'messenger-consume' with pid 114
+2023-11-21 14:09:31,499 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:31,500 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:32,503 INFO spawned: 'messenger-consume' with pid 116
+2023-11-21 14:09:32,506 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:32,506 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:33,512 INFO spawned: 'messenger-consume' with pid 118
+2023-11-21 14:09:33,527 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:33,528 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:34,533 INFO spawned: 'messenger-consume' with pid 120
+2023-11-21 14:09:34,548 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:34,549 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:35,554 INFO spawned: 'messenger-consume' with pid 122
+2023-11-21 14:09:35,570 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:35,572 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:36,578 INFO spawned: 'messenger-consume' with pid 124
+2023-11-21 14:09:36,594 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:36,595 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:37,597 INFO spawned: 'messenger-consume' with pid 126
+2023-11-21 14:09:37,602 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:37,603 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:38,609 INFO spawned: 'messenger-consume' with pid 128
+2023-11-21 14:09:38,624 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:38,625 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:39,628 INFO spawned: 'messenger-consume' with pid 130
+2023-11-21 14:09:39,632 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:39,632 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:40,635 INFO spawned: 'messenger-consume' with pid 132
+2023-11-21 14:09:40,643 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:40,644 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:41,647 INFO spawned: 'messenger-consume' with pid 134
+2023-11-21 14:09:41,654 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:41,654 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:42,659 INFO spawned: 'messenger-consume' with pid 136
+2023-11-21 14:09:42,675 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:42,676 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:43,681 INFO spawned: 'messenger-consume' with pid 138
+2023-11-21 14:09:43,695 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:43,696 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:44,698 INFO spawned: 'messenger-consume' with pid 140
+2023-11-21 14:09:44,701 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:44,702 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:45,704 INFO spawned: 'messenger-consume' with pid 142
+2023-11-21 14:09:45,708 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:45,708 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:46,711 INFO spawned: 'messenger-consume' with pid 144
+2023-11-21 14:09:46,718 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:46,718 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:46,720 INFO spawned: 'messenger-consume' with pid 146
+2023-11-21 14:09:46,732 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:46,732 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:46,734 INFO spawned: 'messenger-consume' with pid 148
+2023-11-21 14:09:46,742 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:46,744 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:47,747 INFO spawned: 'messenger-consume' with pid 150
+2023-11-21 14:09:47,753 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:47,753 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:47,755 INFO spawned: 'messenger-consume' with pid 152
+2023-11-21 14:09:47,762 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:48,764 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:49,767 INFO spawned: 'messenger-consume' with pid 154
+2023-11-21 14:09:49,776 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:50,778 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:51,781 INFO spawned: 'messenger-consume' with pid 156
+2023-11-21 14:09:51,786 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:52,788 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:53,794 INFO spawned: 'messenger-consume' with pid 158
+2023-11-21 14:09:53,808 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:53,809 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:54,815 INFO spawned: 'messenger-consume' with pid 160
+2023-11-21 14:09:54,829 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:54,830 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:55,832 INFO spawned: 'messenger-consume' with pid 162
+2023-11-21 14:09:55,836 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:55,836 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:56,841 INFO spawned: 'messenger-consume' with pid 164
+2023-11-21 14:09:56,854 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:56,855 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:57,861 INFO spawned: 'messenger-consume' with pid 166
+2023-11-21 14:09:57,875 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:57,876 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:58,881 INFO spawned: 'messenger-consume' with pid 168
+2023-11-21 14:09:58,895 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:58,896 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:09:59,901 INFO spawned: 'messenger-consume' with pid 170
+2023-11-21 14:09:59,914 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:09:59,915 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:10:00,920 INFO spawned: 'messenger-consume' with pid 172
+2023-11-21 14:10:00,936 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:00,937 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:10:01,939 INFO spawned: 'messenger-consume' with pid 174
+2023-11-21 14:10:01,943 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:01,944 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:10:02,949 INFO spawned: 'messenger-consume' with pid 176
+2023-11-21 14:10:02,964 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:02,965 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:10:03,968 INFO spawned: 'messenger-consume' with pid 178
+2023-11-21 14:10:03,971 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:03,971 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:10:04,975 INFO spawned: 'messenger-consume' with pid 180
+2023-11-21 14:10:04,991 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:04,992 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:10:05,997 INFO spawned: 'messenger-consume' with pid 182
+2023-11-21 14:10:06,012 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:06,013 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:10:07,019 INFO spawned: 'messenger-consume' with pid 184
+2023-11-21 14:10:07,032 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:07,033 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:10:08,039 INFO spawned: 'messenger-consume' with pid 186
+2023-11-21 14:10:08,048 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:08,048 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:10:09,053 INFO spawned: 'messenger-consume' with pid 188
+2023-11-21 14:10:09,068 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:09,069 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:10:10,075 INFO spawned: 'messenger-consume' with pid 190
+2023-11-21 14:10:10,090 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:10,091 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:10:11,098 INFO spawned: 'messenger-consume' with pid 192
+2023-11-21 14:10:11,109 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:11,110 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:10:12,114 INFO spawned: 'messenger-consume' with pid 194
+2023-11-21 14:10:12,124 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:12,125 INFO exited: messenger-consume (exit status 127; not expected)
+2023-11-21 14:10:13,128 INFO spawned: 'messenger-consume' with pid 196
+2023-11-21 14:10:13,180 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:13,181 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:14,183 INFO spawned: 'messenger-consume' with pid 198
+2023-11-21 14:10:14,214 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:14,214 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:15,216 INFO spawned: 'messenger-consume' with pid 200
+2023-11-21 14:10:15,252 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:15,252 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:16,255 INFO spawned: 'messenger-consume' with pid 202
+2023-11-21 14:10:16,298 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:16,299 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:17,301 INFO spawned: 'messenger-consume' with pid 204
+2023-11-21 14:10:17,344 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:17,344 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:18,346 INFO spawned: 'messenger-consume' with pid 206
+2023-11-21 14:10:18,385 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:18,385 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:19,388 INFO spawned: 'messenger-consume' with pid 208
+2023-11-21 14:10:19,436 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:19,436 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:20,439 INFO spawned: 'messenger-consume' with pid 210
+2023-11-21 14:10:20,480 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:21,482 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:22,485 INFO spawned: 'messenger-consume' with pid 212
+2023-11-21 14:10:22,528 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:22,528 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:23,532 INFO spawned: 'messenger-consume' with pid 214
+2023-11-21 14:10:23,584 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:23,584 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:24,589 INFO spawned: 'messenger-consume' with pid 216
+2023-11-21 14:10:24,661 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:24,661 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:25,666 INFO spawned: 'messenger-consume' with pid 218
+2023-11-21 14:10:25,729 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:25,729 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:26,732 INFO spawned: 'messenger-consume' with pid 220
+2023-11-21 14:10:26,766 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:26,766 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:27,771 INFO spawned: 'messenger-consume' with pid 222
+2023-11-21 14:10:27,833 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:27,833 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:28,838 INFO spawned: 'messenger-consume' with pid 224
+2023-11-21 14:10:28,897 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:28,897 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:29,902 INFO spawned: 'messenger-consume' with pid 226
+2023-11-21 14:10:29,961 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:29,961 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:30,966 INFO spawned: 'messenger-consume' with pid 228
+2023-11-21 14:10:31,028 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:31,028 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:32,033 INFO spawned: 'messenger-consume' with pid 230
+2023-11-21 14:10:32,086 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:32,086 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:33,089 INFO spawned: 'messenger-consume' with pid 232
+2023-11-21 14:10:33,119 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:33,119 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:34,121 INFO spawned: 'messenger-consume' with pid 234
+2023-11-21 14:10:34,146 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:34,146 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:35,149 INFO spawned: 'messenger-consume' with pid 236
+2023-11-21 14:10:35,192 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:36,194 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:37,198 INFO spawned: 'messenger-consume' with pid 238
+2023-11-21 14:10:37,250 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:37,250 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:38,256 INFO spawned: 'messenger-consume' with pid 240
+2023-11-21 14:10:38,323 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:38,323 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:39,326 INFO spawned: 'messenger-consume' with pid 242
+2023-11-21 14:10:39,378 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:39,378 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:40,384 INFO spawned: 'messenger-consume' with pid 244
+2023-11-21 14:10:40,449 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:40,449 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:41,454 INFO spawned: 'messenger-consume' with pid 246
+2023-11-21 14:10:41,516 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:41,516 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:42,521 INFO spawned: 'messenger-consume' with pid 248
+2023-11-21 14:10:42,594 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:42,594 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:43,596 INFO spawned: 'messenger-consume' with pid 250
+2023-11-21 14:10:43,621 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:43,621 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:44,626 INFO spawned: 'messenger-consume' with pid 252
+2023-11-21 14:10:44,686 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:44,686 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:45,691 INFO spawned: 'messenger-consume' with pid 254
+2023-11-21 14:10:45,751 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:45,751 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:46,755 INFO spawned: 'messenger-consume' with pid 256
+2023-11-21 14:10:46,815 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:46,815 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:47,820 INFO spawned: 'messenger-consume' with pid 258
+2023-11-21 14:10:47,873 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:47,873 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:48,875 INFO spawned: 'messenger-consume' with pid 260
+2023-11-21 14:10:48,902 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:48,902 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:49,905 INFO spawned: 'messenger-consume' with pid 262
+2023-11-21 14:10:49,932 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:49,932 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:50,935 INFO spawned: 'messenger-consume' with pid 264
+2023-11-21 14:10:50,960 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:50,960 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:51,962 INFO spawned: 'messenger-consume' with pid 266
+2023-11-21 14:10:51,987 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:51,987 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:52,989 INFO spawned: 'messenger-consume' with pid 268
+2023-11-21 14:10:53,017 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:53,017 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:54,019 INFO spawned: 'messenger-consume' with pid 270
+2023-11-21 14:10:54,044 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:54,044 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:55,049 INFO spawned: 'messenger-consume' with pid 272
+2023-11-21 14:10:55,094 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:55,094 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:56,099 INFO spawned: 'messenger-consume' with pid 274
+2023-11-21 14:10:56,134 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:56,134 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:57,137 INFO spawned: 'messenger-consume' with pid 276
+2023-11-21 14:10:57,161 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:57,162 INFO exited: messenger-consume (exit status 255; not expected)
+2023-11-21 14:10:58,164 INFO spawned: 'messenger-consume' with pid 278
+2023-11-21 14:10:58,446 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:58,453 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:10:59,455 INFO spawned: 'messenger-consume' with pid 282
+2023-11-21 14:10:59,517 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:10:59,524 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:00,528 INFO spawned: 'messenger-consume' with pid 286
+2023-11-21 14:11:00,626 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:00,632 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:01,636 INFO spawned: 'messenger-consume' with pid 290
+2023-11-21 14:11:01,733 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:01,739 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:02,743 INFO spawned: 'messenger-consume' with pid 294
+2023-11-21 14:11:02,837 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:02,843 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:03,846 INFO spawned: 'messenger-consume' with pid 298
+2023-11-21 14:11:03,958 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:03,966 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:04,972 INFO spawned: 'messenger-consume' with pid 302
+2023-11-21 14:11:05,067 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:05,072 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:06,076 INFO spawned: 'messenger-consume' with pid 306
+2023-11-21 14:11:06,153 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:06,161 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:07,163 INFO spawned: 'messenger-consume' with pid 310
+2023-11-21 14:11:07,224 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:07,231 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:08,233 INFO spawned: 'messenger-consume' with pid 314
+2023-11-21 14:11:08,303 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:08,308 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:09,313 INFO spawned: 'messenger-consume' with pid 318
+2023-11-21 14:11:09,407 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:09,413 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:10,415 INFO spawned: 'messenger-consume' with pid 322
+2023-11-21 14:11:10,639 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:10,670 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:11,674 INFO spawned: 'messenger-consume' with pid 326
+2023-11-21 14:11:11,861 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:11,867 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:12,869 INFO spawned: 'messenger-consume' with pid 330
+2023-11-21 14:11:13,248 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:13,256 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:14,261 INFO spawned: 'messenger-consume' with pid 334
+2023-11-21 14:11:14,383 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:14,390 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:15,395 INFO spawned: 'messenger-consume' with pid 338
+2023-11-21 14:11:15,517 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:15,523 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:16,524 INFO spawned: 'messenger-consume' with pid 342
+2023-11-21 14:11:17,054 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:17,063 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:18,064 INFO spawned: 'messenger-consume' with pid 346
+2023-11-21 14:11:18,174 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:18,181 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:19,185 INFO spawned: 'messenger-consume' with pid 350
+2023-11-21 14:11:19,328 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:19,336 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:20,341 INFO spawned: 'messenger-consume' with pid 354
+2023-11-21 14:11:20,508 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:20,515 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:21,517 INFO spawned: 'messenger-consume' with pid 358
+2023-11-21 14:11:21,695 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:22,709 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:23,712 INFO spawned: 'messenger-consume' with pid 362
+2023-11-21 14:11:23,922 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:24,939 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:25,941 INFO spawned: 'messenger-consume' with pid 366
+2023-11-21 14:11:26,158 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:26,176 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:27,179 INFO spawned: 'messenger-consume' with pid 370
+2023-11-21 14:11:27,401 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:27,420 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:28,423 INFO spawned: 'messenger-consume' with pid 374
+2023-11-21 14:11:28,619 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:28,634 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:29,637 INFO spawned: 'messenger-consume' with pid 378
+2023-11-21 14:11:29,833 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:29,849 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:30,852 INFO spawned: 'messenger-consume' with pid 382
+2023-11-21 14:11:31,057 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:31,072 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:32,075 INFO spawned: 'messenger-consume' with pid 386
+2023-11-21 14:11:32,311 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:32,327 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:33,329 INFO spawned: 'messenger-consume' with pid 390
+2023-11-21 14:11:33,534 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:33,546 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:34,549 INFO spawned: 'messenger-consume' with pid 394
+2023-11-21 14:11:34,745 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:34,760 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:35,763 INFO spawned: 'messenger-consume' with pid 398
+2023-11-21 14:11:35,948 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:36,966 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:37,969 INFO spawned: 'messenger-consume' with pid 402
+2023-11-21 14:11:38,182 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:39,199 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:40,201 INFO spawned: 'messenger-consume' with pid 406
+2023-11-21 14:11:40,448 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:40,472 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:41,476 INFO spawned: 'messenger-consume' with pid 410
+2023-11-21 14:11:41,720 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:42,741 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:43,745 INFO spawned: 'messenger-consume' with pid 414
+2023-11-21 14:11:44,003 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:44,021 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:45,025 INFO spawned: 'messenger-consume' with pid 418
+2023-11-21 14:11:45,288 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:46,307 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:47,310 INFO spawned: 'messenger-consume' with pid 422
+2023-11-21 14:11:47,573 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:48,592 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:49,595 INFO spawned: 'messenger-consume' with pid 426
+2023-11-21 14:11:49,862 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:49,880 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:50,883 INFO spawned: 'messenger-consume' with pid 430
+2023-11-21 14:11:51,079 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:51,094 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:52,097 INFO spawned: 'messenger-consume' with pid 434
+2023-11-21 14:11:52,355 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:53,376 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:54,379 INFO spawned: 'messenger-consume' with pid 438
+2023-11-21 14:11:54,646 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:54,668 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:55,671 INFO spawned: 'messenger-consume' with pid 442
+2023-11-21 14:11:55,919 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:56,937 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:11:57,940 INFO spawned: 'messenger-consume' with pid 446
+2023-11-21 14:11:58,207 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:11:59,225 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:12:00,228 INFO spawned: 'messenger-consume' with pid 450
+2023-11-21 14:12:00,492 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:12:00,513 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:12:01,518 INFO spawned: 'messenger-consume' with pid 454
+2023-11-21 14:12:01,659 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:12:01,665 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:12:02,670 INFO spawned: 'messenger-consume' with pid 458
+2023-11-21 14:12:02,817 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:12:02,824 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:12:03,826 INFO spawned: 'messenger-consume' with pid 462
+2023-11-21 14:12:03,940 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:12:03,947 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:12:04,951 INFO spawned: 'messenger-consume' with pid 466
+2023-11-21 14:12:05,096 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:12:05,103 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:12:06,107 INFO spawned: 'messenger-consume' with pid 470
+2023-11-21 14:12:06,255 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:12:06,261 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:12:07,266 INFO spawned: 'messenger-consume' with pid 474
+2023-11-21 14:12:07,391 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:12:07,398 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:12:08,401 INFO spawned: 'messenger-consume' with pid 478
+2023-11-21 14:12:08,552 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:12:08,559 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:12:09,561 INFO spawned: 'messenger-consume' with pid 482
+2023-11-21 14:12:09,674 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:12:09,680 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:12:10,685 INFO spawned: 'messenger-consume' with pid 486
+2023-11-21 14:12:10,800 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:12:10,806 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:12:11,809 INFO spawned: 'messenger-consume' with pid 490
+2023-11-21 14:12:11,943 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:12:11,950 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:12:12,955 INFO spawned: 'messenger-consume' with pid 494
+2023-11-21 14:12:13,098 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:12:13,104 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:12:14,106 INFO spawned: 'messenger-consume' with pid 498
+2023-11-21 14:12:14,217 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:12:14,223 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:12:15,226 INFO spawned: 'messenger-consume' with pid 502
+2023-11-21 14:12:15,337 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:12:15,344 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:12:16,349 INFO spawned: 'messenger-consume' with pid 506
+2023-11-21 14:12:16,505 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:12:16,512 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:12:17,516 INFO spawned: 'messenger-consume' with pid 510
+2023-11-21 14:12:17,637 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:12:17,644 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:12:18,647 INFO spawned: 'messenger-consume' with pid 514
+2023-11-21 14:12:18,763 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:12:18,770 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:12:19,774 INFO spawned: 'messenger-consume' with pid 518
+2023-11-21 14:12:19,922 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:12:19,928 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:12:20,933 INFO spawned: 'messenger-consume' with pid 522
+2023-11-21 14:12:21,088 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:12:21,097 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:12:22,102 INFO spawned: 'messenger-consume' with pid 526
+2023-11-21 14:12:22,248 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:12:22,257 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:12:23,259 INFO spawned: 'messenger-consume' with pid 530
+2023-11-21 14:12:23,369 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:12:23,376 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:12:24,380 INFO spawned: 'messenger-consume' with pid 534
+2023-11-21 14:12:24,521 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:12:24,528 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:12:25,533 INFO spawned: 'messenger-consume' with pid 538
+2023-11-21 14:12:25,684 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:12:25,691 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:12:26,693 INFO spawned: 'messenger-consume' with pid 542
+2023-11-21 14:12:26,817 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:12:26,824 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:12:27,830 INFO spawned: 'messenger-consume' with pid 546
+2023-11-21 14:12:27,974 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:12:27,981 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:12:28,986 INFO spawned: 'messenger-consume' with pid 550
+2023-11-21 14:12:29,129 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:12:29,136 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:12:30,141 INFO spawned: 'messenger-consume' with pid 554
+2023-11-21 14:12:30,288 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:12:30,294 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:12:31,300 INFO spawned: 'messenger-consume' with pid 558
+2023-11-21 14:12:31,443 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:12:31,450 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:12:32,456 INFO spawned: 'messenger-consume' with pid 562
+2023-11-21 14:12:32,601 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:12:32,607 INFO exited: messenger-consume (exit status 1; not expected)
+2023-11-21 14:12:33,612 INFO spawned: 'messenger-consume' with pid 566
+2023-11-21 14:12:33,752 INFO success: messenger-consume entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2023-11-21 14:12:33,758 INFO exited: messenger-consume (exit status 1; not expected)
