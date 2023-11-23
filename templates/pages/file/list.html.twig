@@ -1,0 +1,31 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Liste des images</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Chemin</th>
+                <th>Affichage</th>
+                <th>Lien</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for file in files %}
+                <tr>
+                    <td>{{ file.name }}</td>
+                    <td>{{ file.filename }}</td>
+                    <td></td>
+                    <td><img src="{{ path('display_image', {'filename': file.filename}) }}" alt=""></td>
+                    <td>link</td>
+                </tr>
+            {% else %}
+                <tr>
+                    <td colspan="4">Aucun fichier trouvé</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
