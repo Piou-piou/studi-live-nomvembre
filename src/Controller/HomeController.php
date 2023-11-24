@@ -54,9 +54,9 @@ class HomeController extends AbstractController
     #[Route('/display-image/{filename}', name: 'display_image')]
     public function displayImage(string $filename = null)
     {
-        if (!$this->getUser()->getRoles()) {
-            return new Response();
-        }
+//        if (!$this->getUser()->getRoles()) {
+//            return new Response();
+//        }
 
         if ($filename === null) {
             return new Response();
