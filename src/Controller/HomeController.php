@@ -7,6 +7,7 @@ use App\File\FileUploader;
 use App\Form\FileType;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\DependencyInjection\ParameterBag\ParameterBagInterface;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -27,7 +28,7 @@ class HomeController extends AbstractController
     }
 
     #[Route('/create', name: 'create')]
-    public function create(EntityManagerInterface $em, Request $request, FileUploader $uploader): Response
+    public function create(EntityManagerInterface $em, Request $request, FileUploader $uploader, ParameterBagInterface $parameterBag): Response
     {
         $form = $this->createForm(FileType::class);
         $form->add('save', SubmitType::class);
@@ -37,9 +38,11 @@ class HomeController extends AbstractController
             /** @var File $file */
             $file = $form->getData();
 
-            if ($uploadedFile = $form->get('file')->getData()) {
-                $filename = $uploader->upload($uploadedFile);
-                $file->setFilename($filename);
+            if ($parameterBag->get('file_upload.enabled')) {
+                if ($uploadedFile = $form->get('file')->getData()) {
+                    $filename = $uploader->upload($uploadedFile);
+                    $file->setFilename($filename);
+                }
             }
 
             $em->persist($file);

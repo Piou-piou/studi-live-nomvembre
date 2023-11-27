@@ -1,0 +1,6 @@
+file_upload:
+  enabled: false
+  thumbnails:
+    enabled: true
+    height: 50
+    size: 50
