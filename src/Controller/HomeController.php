@@ -28,9 +28,10 @@ class HomeController extends AbstractController
     }
 
     #[Route('/create', name: 'create')]
-    public function create(EntityManagerInterface $em, Request $request, FileUploader $uploader, ParameterBagInterface $parameterBag): Response
+    #[Route('/edit/{id}', name: 'edit')]
+    public function create(EntityManagerInterface $em, Request $request, FileUploader $uploader, ParameterBagInterface $parameterBag, ?File $file = null): Response
     {
-        $form = $this->createForm(FileType::class);
+        $form = $this->createForm(FileType::class, $file ?? new File());
         $form->add('save', SubmitType::class);
 
         $form->handleRequest($request);

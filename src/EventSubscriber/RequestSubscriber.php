@@ -4,10 +4,13 @@ namespace App\EventSubscriber;
 
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Symfony\Component\HttpKernel\Event\RequestEvent;
+use Symfony\Component\HttpKernel\Event\ResponseEvent;
 use Symfony\Component\HttpKernel\KernelEvents;
 
 class RequestSubscriber implements EventSubscriberInterface
 {
+
+    private string $route = '';
 
     public static function getSubscribedEvents()
     {
@@ -15,7 +18,8 @@ class RequestSubscriber implements EventSubscriberInterface
             KernelEvents::REQUEST => [
                 ['dumpInformation', 10],
                 ['debugRequest', 10],
-            ]
+            ],
+            KernelEvents::RESPONSE => 'onKernelResponse',
         ];
     }
 
@@ -25,7 +29,8 @@ class RequestSubscriber implements EventSubscriberInterface
             return;
         }
 
-        $route = $event->getRequest()->get('_route');
+        $this->route = $route = $event->getRequest()->get('_route');
+        dump($route);
 
         if (str_starts_with($route, 'admin_')) {
             //dump('hello admin');
@@ -37,5 +42,14 @@ class RequestSubscriber implements EventSubscriberInterface
     public function debugRequest(RequestEvent $event): void
     {
        // dump($event->getRequest());
+    }
+
+    public function onKernelResponse(ResponseEvent $event): void
+    {
+        if (!$event->isMainRequest()) {
+            return;
+        }
+
+        dump($this->route);
     }
 }
