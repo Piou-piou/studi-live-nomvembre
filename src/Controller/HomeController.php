@@ -9,6 +9,7 @@ use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\DependencyInjection\ParameterBag\ParameterBagInterface;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
+use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Mime\MimeTypes;
@@ -53,6 +54,15 @@ class HomeController extends AbstractController
         return $this->render('pages/file/edit.html.twig', [
             'form' => $form
         ]);
+    }
+
+    #[Route('/delete/{file}', name: 'delete')]
+    public function delete(EntityManagerInterface $em, File $file): RedirectResponse
+    {
+        $em->remove($file);
+        $em->flush();
+
+        return $this->redirectToRoute('home');
     }
 
     #[Route('/display-image/{filename}', name: 'display_image')]
